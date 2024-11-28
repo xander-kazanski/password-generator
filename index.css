@@ -1,31 +1,45 @@
 body {
-    margin: 0;
-    background: #1F2937;
+  margin: 0;
+  background: #1C1C1C;
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+}
+
+.widget {
+    width: 500px;
+    background-color: #1F2937;
+    margin: 20px auto;
+    padding: 35px;
 }
 
 .container {
-    padding-top: 50px;
     border-bottom: 1px solid #2F3E53;
     padding-bottom: 30px;
-    margin-left: 35px
+
 }
 
 .title {
     color: #ffffff;
-    margin: 20px 0px 0px 0px;
-}
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    font-weight: bold;
+  }
 
 .subtitle {
-    margin: 10px 0px 0px 0px;
-    color: #10B981;
+    margin-top: -5px;
+    padding: 0;
+    color: #4ADF86;
     font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .desc {
     color: #ffffff;
     font-size: 15px;
-    margin-top: 8px;
-    margin-bottom: 40px;
+    font-family: "Inter", serif;
+    color: #D5D4D8;
+    margin: 0 0 51px 0;
 }
 
 .btn {
@@ -35,13 +49,13 @@ body {
     padding: 10px 15px;
     border-radius: 8px;
     color: #ffffff;
+    font-family: "Inter", serif
 }
 
 .passwords {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-    margin-left: 35px;
     gap: 30px
 }
 
@@ -52,8 +66,6 @@ body {
     width: 200px;
     height: 20px;
     color: #55F991;
+    font-family: "Inter", serif
 }
 
-.widget {
-    width: 500px;
-}
