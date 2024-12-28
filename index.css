@@ -52,9 +52,26 @@ body {
   font-family: "Inter", serif;
 }
 
+.options {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.25em; /* 20px */
+  font-size: .5rem;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.option {
+  color: #D5D4D8;
+  font-family: "Inter", serif;
+  font-size: 0.9375rem; /* 15px */
+  margin: 0;
+}
+
 .passwords {
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   padding-top: 1em;
   gap: .5em;
   flex-wrap: wrap;
@@ -65,9 +82,17 @@ body {
   background: #273549;
   padding: 0.625em 2.5em 0.625em 1.25em; /* 10px 40px 10px 20px */
   border-radius: 0.625em; /* 10px */
-  width: 11em; /* 200px */
+  overflow: scroll;
+  scrollbar-width: none;
   height: 1.25em; /* 20px */
   color: #55F991;
   font-family: "Inter", serif;
   margin: 0;
+}
+
+#copy-alert {
+  display: none;
+  padding: 0;
+  margin: 0;
+  color: #D5D4D8;
 }

@@ -20,9 +20,27 @@
       <p class="desc">Never use an insecure password again.</p>
       <button id="generate-btn" class="btn">✨ Generate passwords</button>
     </div>
+    <div class="options">
+      <div class="option">
+        <input type="checkbox" id="uppercase" class="checkbox" checked>
+        <label for="uppercase" class="label">Uppercase</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" id="lowercase" class="checkbox" checked>
+        <label for="lowercase" class="label">Lowercase</label>
+      </div>
+      <div class="option">
+        <input type="checkbox" id="numbers" class="checkbox" checked>
+        <label for="numbers" class="label">Numbers</label>
+      </div>
+      <div class="option">
+        <label for="length" class="label">Length</label>
+        <input type="number" id="length-input" class="input" value="16" min="1" max="64" title="Password Length" placeholder="Enter length">
+      </div>
+    </div>
     <div class="passwords">
+      <p class="copy-alert" id="copy-alert">Password copied to clipboard</p>
       <p class="password" id="password1-el"></p>
-      <p class="password" id="password2-el"></p>
     </div>
   </div>
   <script type="module" src="index.js"></script>
