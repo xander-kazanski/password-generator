@@ -6,66 +6,68 @@ body {
 }
 
 .widget {
-    width: 500px;
-    background-color: #1F2937;
-    margin: 20px auto;
-    padding: 35px;
+  min-width: 21.25em;
+  background-color: #1F2937;
+  margin: 0.6em auto;
+  padding: 1em;
+  margin: 0.5em;
 }
 
 .container {
-    border-bottom: 1px solid #2F3E53;
-    padding-bottom: 30px;
-
+  border-bottom: 0.0625em solid #2F3E53; /* 1px */
+  padding-bottom: 1.875em; /* 30px */
 }
 
 .title {
-    color: #ffffff;
-    margin: 0px 0px 0px 0px;
-    padding: 0;
-    font-weight: bold;
-  }
+  color: #ffffff;
+  margin: 0em 0em 0em 0em; /* 0px */
+  padding: 0;
+  font-weight: bold;
+}
 
 .subtitle {
-    margin-top: -5px;
-    padding: 0;
-    color: #4ADF86;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  margin-top: -0.3125em; /* -5px */
+  padding: 0;
+  color: #4ADF86;
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+  margin-bottom: 0.625em; /* 10px */
 }
 
 .desc {
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Inter", serif;
-    color: #D5D4D8;
-    margin: 0 0 51px 0;
+  color: #ffffff;
+  font-size: 0.9375rem; /* 15px */
+  font-family: "Inter", serif;
+  color: #D5D4D8;
+  margin: 0em 0em 3.1875em 0em; /* 0 0 51px 0 */
 }
 
 .btn {
-    margin-top: 0px;
-    background: #10B981;
-    border: unset;
-    padding: 10px 15px;
-    border-radius: 8px;
-    color: #ffffff;
-    font-family: "Inter", serif
+  margin-top: 0em; /* 0px */
+  background: #10B981;
+  border: unset;
+  padding: 0.625em 0.9375em; /* 10px 15px */
+  border-radius: 0.5em; /* 8px */
+  color: #ffffff;
+  font-family: "Inter", serif;
 }
 
 .passwords {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    gap: 30px
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1em;
+  gap: .5em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 
 .password {
-    background: #273549;
-    padding: 10px 40px 10px 20px;
-    border-radius: 10px;
-    width: 200px;
-    height: 20px;
-    color: #55F991;
-    font-family: "Inter", serif
+  background: #273549;
+  padding: 0.625em 2.5em 0.625em 1.25em; /* 10px 40px 10px 20px */
+  border-radius: 0.625em; /* 10px */
+  width: 11em; /* 200px */
+  height: 1.25em; /* 20px */
+  color: #55F991;
+  font-family: "Inter", serif;
+  margin: 0;
 }
-
